@@ -1,0 +1,12 @@
+{{!-- In this file you can override your pagination --}}
+<nav class="pagination">
+    <div>
+	    {{#if next}}
+	        <a class="older-posts" href="{{pageUrl next}}">&larr; Older posts</a>
+	    {{/if}}
+	   	<span class="page-number">Page {{page}} of {{pages}}</span>
+	    {{#if prev}}
+	        <a class="newer-posts" href="{{pageUrl prev}}">Newer posts &rarr;</a>
+	    {{/if}}
+	</div>
+</nav>
