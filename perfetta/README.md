@@ -2,6 +2,8 @@
 
 Free theme for [Ghost](http://github.com/tryghost/ghost/) prepared by [GavickPro](http://www.gavick.com/).
 
+[-> DEMO <-](http://perfetta.ghost.io)
+
 ## Important information
 
 This theme contains a few features which may require some additional knowledge or settings.
