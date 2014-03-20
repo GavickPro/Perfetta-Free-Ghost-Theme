@@ -4,6 +4,8 @@ Free theme for [Ghost](http://github.com/tryghost/ghost/) prepared by [GavickPro
 
 [-> DEMO <-](http://perfetta.ghost.io)
 
+![Screenshot](//www.gavick.com/res/free-restaurant-coffe-ghost-theme-gavickpro.jpg)
+
 ## Important information
 
 This theme contains a few features which may require some additional knowledge or settings.
