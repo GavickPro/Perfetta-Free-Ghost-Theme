@@ -4,7 +4,7 @@ Free theme for [Ghost](http://github.com/tryghost/ghost/) prepared by [GavickPro
 
 [-> DEMO <-](http://perfetta.ghost.io)
 
-[Download v.1.0.0 for Ghost 0.4.1](https://github.com/GavickPro/Perfetta-Free-Ghost-Theme/releases/tag/v1.0.0)
+[Download v.1.0.0 for Ghost 0.4.1](https://github.com/GavickPro/Perfetta-Free-Ghost-Theme/releases/tag/v1.0.0) - it contains the "perfetta" directory with the theme which should be moved to the content/themes directory.
 
 ![Screenshot](https://www.gavick.com/res/free-restaurant-coffe-ghost-theme-gavickpro.jpg)
 
