@@ -64,7 +64,7 @@
                 <dd>
                     <ul>
                       {{#foreach tags}}
-                        <li>{{name}}{{#if @last}} {{else}}, {{/if}}</li>
+                        <li><a href="{{url}}">{{name}}</a>{{#if @last}} {{else}}, {{/if}}</li>
                       {{/foreach}}
                     </ul>
                 </dd>

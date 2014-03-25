@@ -1,8 +1,8 @@
 /*---------------------------------
 
  Perfetta Ghost Theme by GavickPro
-           17-03-2014
-             v.1.0
+           25-03-2014
+             v.1.1
 
 - - - - - - - - - - - - - - - - - -
 
@@ -396,6 +396,14 @@ footer.page-wrap > div { margin-left: 170px; }
 	font-style: italic;
 	list-style-type: none;
 	padding: 0;
+}
+.post > aside a {
+	color: #8e9798;
+}
+.post > aside a:active,
+.post > aside a:focus,
+.post > aside a:hover {
+	color: #da6426;
 }
 .post .post-readmore {
 	border: 1px solid #da6426;
