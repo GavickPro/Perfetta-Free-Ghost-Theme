@@ -38,6 +38,8 @@ body.default-bg { background-image: url('../images/bg-desktop.jpg'); }
 a {
 	color: #da6426;
 	text-decoration: none;
+}
+.loaded a {
 	-webkit-transition: all 0.3s ease-out;
 	-moz-transition: all 0.3s ease-out;
 	-ms-transition: all 0.3s ease-out;
@@ -217,6 +219,8 @@ body.loaded .blog-desc {
 	-moz-transform: translateY(-10px);
 	-ms-transform: translateY(-10px);
 	transform: translateY(-10px);
+}
+.loaded .blog-desc {
 	-webkit-transition: all 0.5s ease-out;
 	-moz-transition: all 0.5s ease-out;
 	-ms-transition: all 0.5s ease-out;
