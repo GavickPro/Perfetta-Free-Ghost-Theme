@@ -558,7 +558,6 @@ footer.page-wrap > div { margin-left: 170px; }
 }
 .post-footer,
 .post-comments { 
-	overflow: hidden;
 	padding: 0 65px 6.5px 65px; 
 	padding: 0 6.5rem 6.5rem 6.5rem; 
 }
@@ -586,7 +585,9 @@ footer.page-wrap > div { margin-left: 170px; }
 	margin: 2rem 0 0;
 }
 .share:after,
-.author:after {
+.author:after,
+.post-footer:after,
+.post-comments:after {
 	content: "";
 	clear: both;
 	display: table;
