@@ -565,6 +565,15 @@ footer.page-wrap > div { margin-left: 170px; }
 .icon-twitter { color: #2aa9e0 }
 .icon-fb { color: #204385 }
 .icon-gplus { color: #d3492c }
+
+/* Full width */
+.full-width .post > div {
+	margin: 0 0 60px 0;
+}
+.full-width + footer.page-wrap > div {
+	margin-left: 0;
+}
+
 /*---------------------------------
 4. RWD
 ----------------------------------*/
