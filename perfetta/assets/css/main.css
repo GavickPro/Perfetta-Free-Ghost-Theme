@@ -510,6 +510,10 @@ footer.page-wrap > div { margin-left: 170px; }
 .post-content iframe {
 	max-width: 100%;
 }
+.post-content img {
+	display: block;
+	margin: 14px auto;
+}
 .post-footer,
 .post-comments { 
 	padding: 0 65px 6.5px 65px; 
