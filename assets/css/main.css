@@ -1,8 +1,8 @@
 /*---------------------------------
 
  Perfetta Ghost Theme by GavickPro
-           05-04-2014
-             v.1.1.2
+           09-08-2014
+             v.1.2.0
 
 - - - - - - - - - - - - - - - - - -
 
@@ -576,6 +576,75 @@ footer.page-wrap > div { margin-left: 170px; }
 }
 .full-width + footer.page-wrap > div {
 	margin-left: 0;
+}
+
+/* Tag page */
+.page-title {
+	color: #fff;
+	font-size: 36px;
+	line-height: 1;
+	text-align: center;
+}
+.author-bio,
+.page-title > small {
+	color: #fff;
+	clear: both;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1;
+	position: relative;
+	text-align: center;
+	top: -10px;
+	width: 100%;
+}
+
+/* Author page */
+.author-profile {
+	font-size: 14px;
+	margin: 0 auto 40px auto;
+	max-width: 640px;
+	text-align: center;
+}
+.author-profile a {
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+}
+.author-profile a:active,
+.author-profile a:focus,
+.author-profile a:hover {
+	color: #DA6426;
+	border-bottom-color: #DA6426;
+}
+.author-profile img {
+	border: 1px solid rgba(255, 255, 255, .5);
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	padding: 3px;
+	overflow: hidden;
+	width: 100px;
+}
+.author-bio {
+	line-height: 1.6;
+	margin: 0;
+}
+.author-meta {
+	color: #fff;
+	margin: 5px 0 0 0;
+	text-align: center;
+}
+.author-meta dt {
+	display: inline-block;
+	font-weight: bold;
+	margin: 0 10px;
+}
+.author-meta dd {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.author-profile .subscribe-button {
+	margin: 10px 0;
 }
 
 /*---------------------------------

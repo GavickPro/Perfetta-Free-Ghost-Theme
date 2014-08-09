@@ -1,11 +1,22 @@
 {{!< default}}
 
 {{! The main content area on the homepage }}
-<main class="page-wrap tag-page" role="main">
-    <h2 class="page-title">
-    	{{tag.name}}
-    	<small>A {{pagination.total}}-post collection</small>
-    </h2>
+<main class="page-wrap author-page" role="main">
+    {{! Everything inside the #author tags pulls data from the author }}
+    {{#author}}    
+        <section class="author-profile">
+            {{#if image}}
+            <img src="{{image}}" alt="{{name}}'s Picture" />
+            {{/if}}
+            <h2 class="page-title">Posts by {{name}} ({{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}})</h1>
+            <p class="author-bio">{{bio}}</p>
+            <dl class="author-meta">
+                {{#if location}}<dt>Location:</dt><dd>{{location}}</dd>{{/if}}
+                {{#if website}}<dt>Website: </dt><dd><a href="{{website}}">{{website}}</a></dd>{{/if}}
+            </dl>
+            <a class="subscribe-button" href="{{url}}rss/">Subscribe {{name}}'s posts RSS</a>
+        </section>
+    {{/author}}
     
     {{! Each post will be output using this markup }}
     {{#foreach posts}}
