@@ -13,13 +13,9 @@
         }, 500);
         // move main image to header
         if($('#post-page').length > 0) {
-        	var featured_image = $('img[alt="featured-image"]');
         	var featured_video = $('.post-content iframe:first-child')
         	// check if the featured image exists
-        	if(featured_image && featured_image.length > 0) {
-        		// create container for the image
-        		$('.post-header h2').before(featured_image);
-        	} else if(featured_video && featured_video.length > 0) {
+        	if(featured_video && featured_video.length > 0) {
         		$('.post-header h2').before(featured_video);
         	}
         }

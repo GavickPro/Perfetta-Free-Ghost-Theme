@@ -10,6 +10,10 @@
 
         <div>    
             <header class="post-header">
+                {{#if image}}
+                	<img src="{{image}}" alt="{{{title}}}" />
+                {{/if}}
+                
                 <h2 class="post-title">
                     <a href="{{url}}"><span>{{{title}}}</span></a>
                 </h2>
