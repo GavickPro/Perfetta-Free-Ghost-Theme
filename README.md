@@ -4,6 +4,8 @@ Free theme for [Ghost](http://github.com/tryghost/ghost/) prepared by [GavickPro
 
 [-> DEMO <-](http://perfetta.ghost.io)
 
+**Important** The v.1.3.0 adds a built-in support for the post cover images - if you are using older version of the theme, you will have to set cover images for all your older posts.
+
 ## Download
 
 **Important** All below packages contain the "perfetta" directory with the theme which should be moved to the content/themes directory.
