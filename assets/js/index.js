@@ -22,6 +22,16 @@
         // fit videos
         $(".post-header").fitVids();
         $(".post-content").fitVids();
+        
+        // menu behaviour
+        var main_menu = $(".menu");
+        main_menu.click(function() {
+          if(main_menu.hasClass("menu--open")) {
+            main_menu.removeClass("menu--open");
+          } else {
+            main_menu.addClass("menu--open");
+          }
+        });
     });
 }(jQuery));
 

@@ -37,6 +37,10 @@
 </head>
 <body class="{{body_class}}{{#if @blog.cover}} custom-bg{{else}} default-bg{{/if}}"{{#if @blog.cover}} style="background-image: url({{@blog.cover}})"{{/if}}>
     {{> logo}}
+    
+    {{#if @blog.navigation}}
+    	{{navigation}}
+    {{/if}}
 
     {{{body}}}
 
