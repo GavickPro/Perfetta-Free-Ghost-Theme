@@ -82,6 +82,18 @@
                 {{/if}}
             </dl>
         </aside>
+        
+        <nav class="pagination">
+            <div>
+        	    {{#prev_post}}
+        	    <a class="older-posts" href="{{url}}" title="{{title}}">← Previous post</a>
+        	    {{/prev_post}}
+        	    
+        	    {{#next_post}}
+        	   	<a class="newer-posts" href="{{url}}" title="{{title}}">Next post →</a>
+        	   	{{/next_post}}
+        	</div>
+        </nav>
     {{/post}}
     </article>
 </main>
